@@ -19,8 +19,8 @@ export const CartItem = styled.div`
       flex-direction: column;
       padding: 10px;
       background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-    border-radius: 8px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+      border-radius: 8px;
     }
 
 `;
@@ -136,13 +136,16 @@ export const CartItemDelete = styled.div`
     padding: 2px;
 
     @media(max-width: 768px){
-      font-size: 42px;
-      top: -10px;
-      right: 0;
+      font-size: 38px;
+      top: 0px;
+      right: 10px;
       background-color: transparent;
       border: none;
       color: #000000;
       width: auto;
       height: auto;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
     }
 `;
